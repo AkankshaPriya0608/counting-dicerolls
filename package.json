@@ -7,6 +7,12 @@
   "author": "AndrewGoldmann <agoldmann@outlook.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.18",
+    "chai": "^4.3.7",
     "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha tests/index-test.ts"
   }
 }
