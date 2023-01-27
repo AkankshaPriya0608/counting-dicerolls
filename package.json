@@ -2,7 +2,7 @@
   "name": "counting-dicerolls",
   "version": "0.0.0",
   "description": "count dice rolls to make sure akanksha isn't cheating",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "https://github.com/AkankshaPriya0608/counting-dicerolls.git",
   "author": "AndrewGoldmann <agoldmann@outlook.com>",
   "license": "MIT",
@@ -12,7 +12,8 @@
     "chai": "^4.3.7",
     "mocha": "^10.2.0"
   },
+  "type": "module",
   "scripts": {
-    "test": "mocha tests/index-test.ts"
+    "test": "mocha __tests__/index-test.spec.js"
   }
 }
